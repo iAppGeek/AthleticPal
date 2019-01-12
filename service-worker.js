@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AthleticPal/precache-manifest.3f830a315ae6caad20559380a78faa3b.js"
+  "/AthleticPal/precache-manifest.2ec5290b8b5bcbe4a40b25062e3bb1b7.js"
 );
 
 workbox.clientsClaim();
