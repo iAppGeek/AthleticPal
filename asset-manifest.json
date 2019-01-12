@@ -1,13 +1,13 @@
 {
-  "main.css": "/AthleticPa/static/css/main.f3ab9689.chunk.css",
-  "main.js": "/AthleticPa/static/js/main.a3f9bf86.chunk.js",
-  "main.js.map": "/AthleticPa/static/js/main.a3f9bf86.chunk.js.map",
-  "static/js/1.4a34e45d.chunk.js": "/AthleticPa/static/js/1.4a34e45d.chunk.js",
-  "static/js/1.4a34e45d.chunk.js.map": "/AthleticPa/static/js/1.4a34e45d.chunk.js.map",
-  "runtime~main.js": "/AthleticPa/static/js/runtime~main.08d1eb00.js",
-  "runtime~main.js.map": "/AthleticPa/static/js/runtime~main.08d1eb00.js.map",
-  "static/css/main.f3ab9689.chunk.css.map": "/AthleticPa/static/css/main.f3ab9689.chunk.css.map",
-  "index.html": "/AthleticPa/index.html",
-  "precache-manifest.7d4ce3b216f238fffb86dccf842f0009.js": "/AthleticPa/precache-manifest.7d4ce3b216f238fffb86dccf842f0009.js",
-  "service-worker.js": "/AthleticPa/service-worker.js"
+  "main.css": "/AthleticPal/static/css/main.f3ab9689.chunk.css",
+  "main.js": "/AthleticPal/static/js/main.1b199f9e.chunk.js",
+  "main.js.map": "/AthleticPal/static/js/main.1b199f9e.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "/AthleticPal/static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "/AthleticPal/static/js/1.4a34e45d.chunk.js.map",
+  "runtime~main.js": "/AthleticPal/static/js/runtime~main.a9bdbaf3.js",
+  "runtime~main.js.map": "/AthleticPal/static/js/runtime~main.a9bdbaf3.js.map",
+  "static/css/main.f3ab9689.chunk.css.map": "/AthleticPal/static/css/main.f3ab9689.chunk.css.map",
+  "index.html": "/AthleticPal/index.html",
+  "precache-manifest.3f830a315ae6caad20559380a78faa3b.js": "/AthleticPal/precache-manifest.3f830a315ae6caad20559380a78faa3b.js",
+  "service-worker.js": "/AthleticPal/service-worker.js"
 }
