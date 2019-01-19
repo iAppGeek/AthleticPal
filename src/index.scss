@@ -1,0 +1,84 @@
+$color-deep-blue: #1367e4;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: calc(100% + 150px); // Force page v-scroll
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  background: #333;
+  color: #333;
+  transition: all 0.3s;
+}
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar button {
+  color: inherit !important;
+}
+
+.navbar.compressed {
+  *padding-top: 0px;
+  padding-bottom: 0px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*
+ * Content
+ */
+
+.content {
+  margin-top: 35px;
+
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.95;
+    text-align: justify;
+  }
+}
+
+
+
+
+
+
+
+/*.navbar {*/
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+  /*background: #333;*/
+  /*color: #333;*/
+  /*transition: all 0.3s;*/
+/*}*/
+/*.navbar a {*/
+  /*color: #fff !important;*/
+/*}*/
+
+/*.navbar button {*/
+  /*color: inherit !important;*/
+/*}*/
+
+/*.navbar.compressed {*/
+  /*padding-top: 0px;*/
+  /*padding-bottom: 0px;*/
+  /*box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
