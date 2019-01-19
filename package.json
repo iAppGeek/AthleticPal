@@ -2,7 +2,7 @@
   "name": "athletic-pal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iappgeek.github.io/AthleticPal",
+  "homepage": "https://iappgeek.github.io/AthleticPal (use for github hosting only)",
   "dependencies": {
     "@types/jest": "^23.3.12",
     "@types/jquery": "^3.3.29",
@@ -12,12 +12,15 @@
     "@types/react-dom": "^16.0.11",
     "bootstrap": "^3.4.0",
     "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
     "popper.js": "^1.14.6",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
     "react-scripts": "2.1.3",
-    "typescript": "^3.2.2"
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

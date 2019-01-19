@@ -1,38 +1,39 @@
 import * as React from 'react';
-import {MenuItem, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import * as NavItem from "react-bootstrap/lib/NavItem";
 
 const PageHeader = (props) => {
+
     return (
-        <Navbar inverse collapseOnSelect>
+        <Navbar fixedTop inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="#brand">React-Bootstrap</a>
+                    <a href="/">Athletic Pal</a>
                 </Navbar.Brand>
                 <Navbar.Toggle/>
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <NavItem eventKey={1} href="#">
-                        Link
+                    <NavItem eventKey={1} href="/food">
+                        Food Track
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
-                        Link
+                    <NavItem eventKey={2} href="/training">
+                        Training Details
                     </NavItem>
-                    <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                        <MenuItem eventKey={3.1}>Action</MenuItem>
-                        <MenuItem eventKey={3.2}>Another action</MenuItem>
-                        <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                        <MenuItem divider/>
-                        <MenuItem eventKey={3.3}>Separated link</MenuItem>
-                    </NavDropdown>
+                    {/*<NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">*/}
+                        {/*<MenuItem eventKey={3.1}>Action</MenuItem>*/}
+                        {/*<MenuItem eventKey={3.2}>Another action</MenuItem>*/}
+                        {/*<MenuItem eventKey={3.3}>Something else here</MenuItem>*/}
+                        {/*<MenuItem divider/>*/}
+                        {/*<MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
+                    {/*</NavDropdown>*/}
                 </Nav>
                 <Nav pullRight>
-                    <NavItem eventKey={1} href="#">
-                        Link Right
+                    <NavItem eventKey={1} href="/contact">
+                        Contact Trainers
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
-                        Link Right
+                    <NavItem eventKey={2} href="/about">
+                        About
                     </NavItem>
                 </Nav>
             </Navbar.Collapse>
